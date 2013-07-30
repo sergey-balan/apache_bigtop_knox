@@ -34,6 +34,7 @@ TARGETS_CLEAN:=
 # Default Apache mirror
 APACHE_MIRROR ?= http://apache.osuosl.org
 APACHE_ARCHIVE ?= http://archive.apache.org/dist
+APACHE_BUILDS ?= https://builds.apache.org/
 
 # Include the implicit rules and functions for building packages
 include package.mk
